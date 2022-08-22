@@ -1,0 +1,29 @@
+{
+  "name": "pelm-sdk",
+  "description": "SDK for the Pelm API",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "typescript": "^4.7.4"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "sdk",
+    "api",
+    "pelm"
+  ],
+  "version": "1.0.0",
+  "private": true,
+  "author": "Andre Gras<andre@nutiliti.com>"
+}
